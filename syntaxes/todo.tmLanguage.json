@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "todo",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#todo"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#date"
+		},
+		{
+			"include": "#time"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.todo",
+					"match": "\\b(Done|Wait)\\b"
+				}
+			]
+		},
+		"todo": {
+			"patterns": [
+				{
+					"name": "variable.parameter",
+					"match": "\\bTODO\\b"
+				}
+			]
+		},
+		"date": {
+			"patterns": [
+				{
+					"name": "keyword.other.todo",
+					"match": "\\b\\d{4}-\\d{2}-\\d{2}\\b"
+				}
+			]
+		},
+		"time": {
+			"patterns": [
+				{
+					"name": "constant.numeric.todo",
+					"match": "\\b\\d{1,2}(:|\\.)\\d{2}\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.todo",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.todo",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "text.todo"
+}

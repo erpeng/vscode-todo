@@ -1,0 +1,41 @@
+{
+    "name": "todo",
+    "displayName": "todo",
+    "description": "todo file",
+    "version": "0.0.1",
+    "publisher": "izaxon",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "todo",
+                "aliases": [
+                    "todo",
+                    "todo"
+                ],
+                "extensions": [
+                    ".todo"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "todo",
+                "scopeName": "text.todo",
+                "path": "./syntaxes/todo.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "todo",
+                "path": "./snippets/todo.json"
+            }
+        ]
+    }
+}
