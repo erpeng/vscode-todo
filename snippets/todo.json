@@ -9,7 +9,8 @@
     "da": {
         "prefix": "date",
         "body": [
-            "2017-${1:01}-${2:01}",
+            "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+            "${CURRENT_HOUR}:${CURRENT_MINUTE}-",
             ""
         ],
         "description": "Code snippet for a date"
@@ -17,7 +18,7 @@
     "ti": {
         "prefix": "time",
         "body": [
-            "${1:08}:${2:00}",
+            "${CURRENT_HOUR}:${CURRENT_MINUTE}",
             ""
         ],
         "description": "Code snippet for a timestamp"
