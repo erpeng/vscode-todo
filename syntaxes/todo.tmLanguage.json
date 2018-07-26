@@ -23,7 +23,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.todo",
-					"match": "\\b(Done|Wait)\\b"
+					"match": "\\b(Done|Wait|Not)\\b"
 				}
 			]
 		},
