@@ -4,6 +4,10 @@
     "description": "VS Code TODO File Extension",
     "version": "0.1.0",
     "publisher": "izaxon",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/izaxon/vscode-todo"
+    },
     "engines": {
         "vscode": "^1.16.0"
     },
