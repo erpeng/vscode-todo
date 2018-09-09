@@ -1,8 +1,8 @@
 {
     "name": "todo",
     "displayName": "todo",
-    "description": "todo file",
-    "version": "0.0.1",
+    "description": "VS Code TODO File Extension",
+    "version": "0.1.0",
     "publisher": "izaxon",
     "engines": {
         "vscode": "^1.16.0"
