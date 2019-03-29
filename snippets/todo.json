@@ -9,9 +9,7 @@
     "da": {
         "prefix": "date",
         "body": [
-            "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
-            "${CURRENT_HOUR}:${CURRENT_MINUTE}-",
-            ""
+            "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}-"
         ],
         "description": "Code snippet for a date"
     },
@@ -22,6 +20,27 @@
             ""
         ],
         "description": "Code snippet for a timestamp"
+    },
+    "do": {
+        "prefix": "Done",
+        "body": [
+            "Done"
+        ],
+        "description": "todo status"
+    },
+    "sus": {
+        "prefix": "Suspend",
+        "body": [
+            "Suspend"
+        ],
+        "description": "todo status"
+    },
+    "del": {
+        "prefix": "Delete",
+        "body": [
+            "Delete"
+        ],
+        "description": "todo status"
     },
     "if": {
         "prefix": "if",
