@@ -16,8 +16,7 @@
     "ti": {
         "prefix": "time",
         "body": [
-            "${CURRENT_HOUR}:${CURRENT_MINUTE}",
-            ""
+            "${CURRENT_HOUR}:${CURRENT_MINUTE} "
         ],
         "description": "Code snippet for a timestamp"
     },
@@ -25,6 +24,7 @@
         "prefix": "Done",
         "body": [
             "Done"
+	    ""
         ],
         "description": "todo status"
     },
@@ -32,6 +32,7 @@
         "prefix": "Suspend",
         "body": [
             "Suspend"
+	    ""
         ],
         "description": "todo status"
     },
@@ -39,6 +40,7 @@
         "prefix": "Delete",
         "body": [
             "Delete"
+	    ""
         ],
         "description": "todo status"
     },
